@@ -1,0 +1,11 @@
+.container {
+  border-right: 1px solid #64748b; 
+  padding: 1rem; 
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem; 
+}

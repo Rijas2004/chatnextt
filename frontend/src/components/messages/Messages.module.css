@@ -1,0 +1,14 @@
+.messagesContainer {
+  padding: 0 1rem;
+  flex: 1;
+  overflow: auto;
+}
+
+.messageSkeleton {
+  margin-bottom: 1rem;
+}
+
+.emptyMessage {
+  text-align: center;
+  color: #bc4c10;
+}

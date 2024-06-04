@@ -1,0 +1,29 @@
+.container {
+  margin-top: auto;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.loadingSpinner {
+  display: inline-block;
+  border: 2px solid #c2bfbf;
+  border-top: 2px solid rgb(118, 115, 115);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
