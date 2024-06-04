@@ -17,7 +17,7 @@ const useGetMessages = () => {
         }
 
         const res = await fetch(
-          `http://localhost:8000/api/messages/${selectedConversation._id}`,
+          `https://chattnext.onrender.com/api/messages/${selectedConversation._id}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,

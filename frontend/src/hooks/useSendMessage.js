@@ -16,7 +16,7 @@ const useSendMessage = () => {
       }
 
       const res = await fetch(
-        `http://localhost:8000/api/messages/send/${selectedConversation._id}`,
+        `https://chattnext.onrender.com/api/messages/send/${selectedConversation._id}`,
         {
           method: "POST",
           headers: {
