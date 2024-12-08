@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://chattnext.onrender.com"],
+    origin: ["https://chatnextt.netlify.app"],
     methods: ["GET", "POST"],
   },
 });
