@@ -16,7 +16,7 @@ const useSendMessage = () => {
       }
 
       const res = await fetch(
-        `https://chatnextt.netlify.app/api/messages/send/${selectedConversation._id}`,
+        `https://chatnextt.vercel.app/api/messages/send/${selectedConversation._id}`,
         {
           method: "POST",
           headers: {

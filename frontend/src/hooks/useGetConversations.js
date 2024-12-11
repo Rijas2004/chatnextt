@@ -15,7 +15,7 @@ const useGetConversations = () => {
           throw new Error("No token found");
         }
 
-        const res = await fetch("https://chatnextt.netlify.app/api/users", {
+        const res = await fetch("https://chatnextt.vercel.app/api/users", {
           headers: {
             Authorization: `Bearer ${token}`, // Include the token in the Authorization header
             "Content-Type": "application/json",

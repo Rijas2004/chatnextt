@@ -17,7 +17,7 @@ const useGetMessages = () => {
         }
 
         const res = await fetch(
-          `https://chatnextt.netlify.app/api/messages/${selectedConversation._id}`,
+          `https://chatnextt.vercel.app/api/messages/${selectedConversation._id}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
