@@ -22,7 +22,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "https://chatnextt.netlify.app",
+    origin: "https://chatnextt.vercel.app",
     credentials: true,
   })
 );
