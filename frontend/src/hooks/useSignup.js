@@ -26,7 +26,7 @@ const useSignup = () => {
     setLoading(true);
     try {
       const res = await fetch(
-        "https://chatnextt.vercel.app/api/auth/signup",
+        "https://chattnext.onrender.com/api/auth/signup",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

@@ -17,7 +17,7 @@ const useGetMessages = () => {
         }
 
         const res = await fetch(
-          `https://chatnextt.vercel.app/api/messages/${selectedConversation._id}`,
+          `https://chattnext.onrender.com/api/messages/${selectedConversation._id}`,
           {
             headers: {
               Authorization: `Bearer ${token}`,

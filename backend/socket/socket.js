@@ -7,7 +7,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: ["https://chatnextt.vercel.app"],
+    origin: ["https://chattnext.onrender.com"],
     methods: ["GET", "POST"],
   },
 });
